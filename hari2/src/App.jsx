@@ -17,7 +17,7 @@ function App() {
   const [dummy,setDummy] = useState([])
 
   useEffect(()=>{
-    axios.get("http://localhost:3000/insertdata")
+    axios.get("https://client-indol-delta.vercel.app/insertdata")
     .then((response)=>{
       setDummy(response.data)
     })

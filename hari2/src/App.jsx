@@ -40,7 +40,7 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path:"/insertData",
+      path:"/",
       element: <InsertData dummy={dummy} setDummy={setDummy} addDataSewa={addDataSewa}></InsertData>
     }
   ]);

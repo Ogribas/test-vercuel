@@ -5,7 +5,7 @@ function InsertData({dummy,setDummy,addDataSewa}){
 
     return (dummy.length > 0 &&(
         <div className="bg-bg flex min-w-max min-h-screen ">
-            <a className='text-red-600' href="/insertdata">insertdata</a>
+          
         <dialog id='modalBox' className='backdrop:bg-black'><p>penis</p></dialog>
         <div className="bg-customblack w-20 min-h-screen sticky  border-r border-customborder">
         </div>
